@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public interface Userservice {
+package com.appsdeveloperblog.estore.service;
+
+import model.User;
+
+public interface UserService {
+    User createUser(String firstName, String lastName, String email, String password);
 }
